@@ -1,0 +1,139 @@
+/* Keep the event list container structured */
+.event-list-container {
+    margin-top: 20px;
+    padding-bottom: 60px; /* Ensures space for buttons */
+}
+
+/* Table styles */
+.event-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.event-table th, .event-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.event-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Action buttons container (inline, at the bottom-left) */
+.action-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row; /* Makes buttons inline */
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+/* Button styles */
+.action-buttons button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    min-width: 150px;
+    text-align: center;
+}
+
+/* Add Event button (Green) */
+.action-buttons button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.action-buttons button:first-child:hover {
+    background-color: #218838;
+}
+
+/* Edit Event button (Blue) */
+.action-buttons button:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+}
+
+.action-buttons button:nth-child(2):hover {
+    background-color: #0056b3;
+}
+
+/* Delete Event button (Red) */
+.action-buttons .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.action-buttons .delete-btn:hover {
+    background-color: #a71d2a;
+}
+/* Selected row turns black */
+.selected-row {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Action buttons */
+.action-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row; /* Inline buttons */
+    gap: 10px;
+}
+
+/* Button styling */
+.action-buttons button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    min-width: 150px;
+    text-align: center;
+}
+
+/* Add Event (Green) */
+.action-buttons button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.action-buttons button:first-child:hover {
+    background-color: #218838;
+}
+
+/* Edit Event (Blue) */
+.action-buttons button:nth-child(2) {
+    background-color: #007bff;
+    color: white;
+}
+
+.action-buttons button:nth-child(2):hover {
+    background-color: #0056b3;
+}
+
+/* Delete Event (Red) */
+.action-buttons .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.action-buttons .delete-btn:hover {
+    background-color: #a71d2a;
+}
